@@ -22,26 +22,33 @@ time, mark, audio, video {
 #nav {
     
 }
-#nav-links, #headline {
+#nav-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     
 }
-ul {
+ul, li {
     text-decoration: none;
     
 }
-#headers {
+#headers, .headers {
     text-align: center;
 }
 
+#headline {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: center;
+
+}
 #headline-header {
     font-size: 15px;
     font-style: italic;
-    flex-shrink: 2;
-    flex-grow: 1;
+    flex-shrink: 3;
+    
     justify-content: space-evenly;
     padding: 10px 0;
     margin: 5px 0;
@@ -50,8 +57,11 @@ ul {
 #projects-screen, #contact-screen, #about-screen {
     display: flex;
     flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
     
 }
+
 .description {
     display: flex;
     align-items: flex-start;
@@ -65,5 +75,50 @@ article {
    padding: 10px 0;
    margin: 5px 0; 
 }
+
+/* ////////////////////// TABLET ///////////////////// */
+@media only screen and (min-width: 600px) {
+
+    #headline-header {
+        width: 50%;
+        height: auto;
+        
+    }
+    
+
+}
+
+/* ////////////////////// LAPTOP ///////////////////// */
+@media only screen and (min-width: 1000px) {
+    #projects-screen {
+        /* flex-direction: row; */
+        
+    }
+    h3, .header {
+        text-align: center;
+    }
+    #about-screen, .about-screen {
+        flex-grow: 0;
+        flex-shrink: 3;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    #headline {
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    #headline-header {
+        flex-grow: 0;
+        flex-shrink: 2;
+      
+    }
+
+    
+}
+
+/* ////////////////////// DESKTOP ///////////////////// */
 
 
