@@ -91,11 +91,24 @@ article {
 /* ////////////////////// LAPTOP ///////////////////// */
 @media only screen and (min-width: 1000px) {
     #projects-screen {
-        /* flex-direction: row; */
-        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        /* flex-grow: 1;
+        flex-shrink: 3; */
+        flex-wrap: wrap;
     }
+    aside {
+        display: flex;
+        flex-direction: column;
+    }
+
     h3, .header {
         text-align: center;
+    }
+    #projects-screen>h3 {
+        flex-grow: 5;
     }
     #about-screen, .about-screen {
         flex-grow: 0;
