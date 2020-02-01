@@ -80,7 +80,7 @@ article {
 @media only screen and (min-width: 600px) {
 
     #headline-header {
-        width: 50%;
+        width: 75%;
         height: auto;
         
     }
@@ -111,6 +111,7 @@ article {
 
     }
     #headline-header {
+        width: 50%;
         flex-grow: 0;
         flex-shrink: 2;
       
