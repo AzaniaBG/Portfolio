@@ -21,6 +21,10 @@ time, mark, audio, video {
 * {
     border: 1px black solid;
 }
+.image {
+    width: 25%;
+    height: 25%;
+}
 #nav {
     
 }
