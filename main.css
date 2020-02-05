@@ -18,7 +18,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 } */
-
+* {
+    border: 1px black solid;
+}
 #nav {
     
 }
@@ -92,7 +94,7 @@ article {
 @media only screen and (min-width: 1000px) {
     #projects-screen {
         display: flex;
-        flex-direction: row;
+        flex-flow: row wrap;
         align-items: center;
         justify-content: space-evenly;
         /* flex-grow: 1;

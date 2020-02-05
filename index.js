@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Azania Baker-Garcia portfolio includes projects, contact information, and biography. View projects on GitHub, using HTML5, CSS, JavaScript, jQuery, and APIs.">
+        <title>ABG Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>
+        <nav id="nav">
+            <ul id="nav-links">
+                <li class="nav-links">About</li>
+                <li class="nav-links">Projects</li>
+                <li class="nav-links">Contact</li>
+            </ul>
+        </nav>
+<!--////////////////////////SCREEN HEADERS/////////////////////////////////////-->    
+        <header id="headers" class="header">          
+            <h2 id="projects-header" class="header">Projects</h2>
+            <h2 id="contact-header" class="header">Contact</h2>
+            <h2 id="about-header" class="header">About</h2>
+        </header>
+<!--////////////////////////END SCREEN HEADERS/////////////////////////////////////-->
+
+        <main>
+            <section id="headline">
+                    <h3 id="headline-header" class="header">Hello there! I'm Azania Baker-Garcia, a practicing attorney looking to combine my social justice interests with my skills as a fullstack web developer.</h3>
+            </section>
+<!--////////////////////////PROJECTS SCREEN/////////////////////////////////////-->
+            
+            <section id="projects-screen">
+                <h3 class="header projects-screen">Project Name (live link)</h3>
+                    <aside class="projects-screen">Tech Used</aside>
+                    <img class="projects-screen">Screenshot
+                    <img class="projects-screen">Screenshot
+                    <img class="projects-screen">Screenshot
+            <article class="projects-screen description">Project Description<br>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </article>
+                <a class="projects-screen">GitHub Repo Link</a>
+
+                <h3 class="header projects-screen">Project Name (live link)</h3>
+                    <aside class="projects-screen">Tech Used</aside>
+                    <img class="projects-screen">Screenshot
+                    <img class="projects-screen">Screenshot
+                    <img class="projects-screen">Screenshot
+            <article class="projects-screen description">Project Description<br>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </article>
+                <a class="projects-screen">GitHub Repo Link</a>
+            </section>
+<!--/////////////////////// END PROJECTS SCREEN/////////////////////////////////////-->
+<!--////////////////////////CONTACT SCREEN/////////////////////////////////////-->
+            <section id="contact-screen">
+                <h3 class="header contact-screen">Contact</h3>
+                <ul class="contact-screen">
+                    <li class="contact-screen">Email: <a href="mailto:azaniazbaker@gmail.com" target="_blank">azaniazbaker@gmail.com</a></li>
+                    <li class="contact-screen">LinkedIn: <a href="https://www.linkedin.com/in/azania-baker-garcia/" target="_blank">azania-baker-garcia</a></li>
+                    <li class="contact-screen">GitHub handle: <a href="https://github.com/AzaniaBG" target="_blank">AzaniaBG</a></li>                   
+                </ul>
+
+            </section>
+<!--//////////////////////// END CONTACT SCREEN/////////////////////////////////////-->
+<!--////////////////////////ABOUT SCREEN/////////////////////////////////////-->
+            <section id="about-screen">
+                <h3 class="header about-screen">About</h3>
+                    <article class="about-screen">insert bio<br>
+                        I am currently enrolled in the Thinkful Flex Engineer program and having a blast learning about programming. I enjoy researching how to create accessible, user-friendly applications. I'm also working to gain an in-depth knowledge of JavaScript and Object Oriented Programming with daily Codewars challenges and freeCodeCamp tutorials.<br>
+
+                        My hobbies include learning Spanish and collaborating with my Code Famiglia "squad" on projects that will help us understand and apply the languages we're learning. My long commute allows me to listen to cool podcasts like CodeNewbie, Command Line Heroes, and Stuff You Should Know--just to name a few.
+                    </article>
+            </section>
+<!--//////////////////////// END ABOUT SCREEN/////////////////////////////////////-->
+        </main>
+    </body>
+
+
+</html>
