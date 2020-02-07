@@ -32,8 +32,9 @@ time, mark, audio, video {
     justify-content: space-around;
     
 }
-ul, li {
+ul, li, .contact-screen, #nav-links, .nav-links {
     text-decoration: none;
+    list-style-type: none;
     
 }
 #headers, .headers {
