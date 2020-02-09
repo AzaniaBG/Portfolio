@@ -107,13 +107,14 @@ ul, li, .contact-screen, #nav-links, .nav-links {
     align-items: flex-start;
 }
 article {
-   flex-shrink: 3;
-   flex-grow: 1;
-   flex-direction: start;
-   align-self: flex-start;
-   justify-content: space-evenly;
-   padding: 10px 0;
-   margin: 5px 0; 
+    font-family: 'Muli', sans-serif;
+    flex-shrink: 3;
+    flex-grow: 1;
+    flex-direction: start;
+    align-self: flex-start;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin: 5px 0; 
 }
 
 /* ////////////////////// TABLET ///////////////////// */
@@ -130,6 +131,18 @@ article {
 
 /* ////////////////////// LAPTOP ///////////////////// */
 @media only screen and (min-width: 1000px) {
+    #headline {
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    #headline-header {
+        width: 50%;
+        flex-grow: 0;
+        flex-shrink: 2;
+      
+    }
     #projects-screen {
         display: flex;
         flex-flow: column wrap;
@@ -164,18 +177,7 @@ article {
         align-items: center;
     
     }
-    #headline {
-        flex-direction: column;
-        align-items: center;
-        
-
-    }
-    #headline-header {
-        width: 50%;
-        flex-grow: 0;
-        flex-shrink: 2;
-      
-    }
+    
 
     
 }
