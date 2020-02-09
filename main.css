@@ -42,6 +42,9 @@ p, article {
     justify-content: space-around;
     
 }
+h3, .headers {
+    font-family: 'Bebas Neue', cursive;
+}
 ul, li, .contact-screen, #nav-links, .nav-links {
     text-decoration: none;
     list-style-type: none;
@@ -61,7 +64,7 @@ ul, li, .contact-screen, #nav-links, .nav-links {
 }
 #headline-header {
     font-size: 15px;
-    font-style: italic;
+    font-family: 'Muli', sans-serif;
     flex-shrink: 3;
     
     justify-content: space-evenly;
