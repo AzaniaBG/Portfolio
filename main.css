@@ -54,10 +54,6 @@ h3, #headers, .headers {
     font-family: 'Bebas Neue', cursive;
 }
 
-ul, li, .contact-screen, #nav-links, .nav-links {
-    list-style-type: none;   
-}
-
 #headline {
     font-family: 'Muli', sans-serif;
     display: flex;
@@ -69,8 +65,7 @@ ul, li, .contact-screen, #nav-links, .nav-links {
 #headline-header {
     font-size: 15px;
     font-family: 'Muli', sans-serif;
-    flex-shrink: 3;
-    
+    flex-shrink: 3; 
     justify-content: space-evenly;
     padding: 10px 0;
     margin: 5px 0;
@@ -79,11 +74,14 @@ ul, li, .contact-screen, #nav-links, .nav-links {
 #projects-screen, #contact-screen, #about-screen {
     display: flex;
     flex-flow: column;
-    /* flex-grow: 2; */
     align-items: center;
-    
-    
 }
+.projects-screen-header, .contact-screen-header, .about-screen-header {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
 #quiz-app-screenshots, #horror-house-screenshots {
     display: flex;
     flex-flow: column;
@@ -110,11 +108,11 @@ article {
     padding: 10px 0;
     margin: 5px 0; 
 }
-.projects-screen-header, .contact-screen-header .about-screen-header {
-    background-color: black;
-    color: white;
 
+ul, li, .contact-screen, #nav-links, .nav-links {
+    list-style-type: none;   
 }
+
 /* ////////////////////// TABLET ///////////////////// */
 @media only screen and (min-width: 600px) {
 
