@@ -52,6 +52,7 @@ ul, li, .contact-screen, #nav-links, .nav-links {
 }
 
 #headline {
+    font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
