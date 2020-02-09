@@ -32,6 +32,8 @@ p, article {
 #nav {
     font-family: 'Cinzel', serif;
     font-size: 16px;
+    background-color: black;
+    color: white;
 }
 #nav-links {
     font-family: 'Cinzel', serif;
@@ -44,9 +46,15 @@ p, article {
 }
 h2 {
     font-family: 'Cinzel', serif;
+   
+    
 }
 h3, .headers {
     font-family: 'Bebas Neue', cursive;
+}
+.projects-screen-header, .contact-screen-header .about-screen-header {
+
+
 }
 ul, li, .contact-screen, #nav-links, .nav-links {
     text-decoration: none;
