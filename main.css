@@ -20,6 +20,7 @@ time, mark, audio, video {
 } */
 * {
     border: 1px black solid;
+    box-sizing: border-box;
 }
 #ABG, h1 {
     font-family: 'Megrim', cursive;
@@ -47,8 +48,8 @@ p, article {
 h2 {
     font-family: 'Cinzel', serif;
    
-    
 }
+
 h3, .headers {
     font-family: 'Bebas Neue', cursive;
 }
@@ -89,6 +90,7 @@ ul, li, .contact-screen, #nav-links, .nav-links {
     /* flex-grow: 2; */
     align-items: center;
     
+    
 }
 #quiz-app-screenshots, #horror-house-screenshots {
     display: flex;
@@ -116,7 +118,11 @@ article {
     padding: 10px 0;
     margin: 5px 0; 
 }
+.projects-screen-header, .contact-screen-header .about-screen-header {
+    background-color: black;
+    color: white;
 
+}
 /* ////////////////////// TABLET ///////////////////// */
 @media only screen and (min-width: 600px) {
 
