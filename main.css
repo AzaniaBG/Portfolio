@@ -42,6 +42,9 @@ p, article {
     justify-content: space-around;
     
 }
+h2 {
+    font-family: 'Cinzel', serif;
+}
 h3, .headers {
     font-family: 'Bebas Neue', cursive;
 }
@@ -121,7 +124,7 @@ article {
 @media only screen and (min-width: 1000px) {
     #projects-screen {
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
         align-items: center;
         justify-content: space-evenly;
         /* flex-grow: 1;
@@ -135,19 +138,18 @@ article {
         
     }
     
-
     aside {
         display: flex;
         flex-direction: column;
     }
-
-    h3, .header {
+    
+    h3, .header, .projects-screen-header {
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
-    #projects-screen>h3 {
-        flex-grow: 5;
-    }
-    #about-screen, .about-screen {
+    
+    #about-screen, .about-screen, #projects-screens {
         flex-grow: 0;
         flex-shrink: 3;
         flex-direction: column;
