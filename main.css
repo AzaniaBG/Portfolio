@@ -46,12 +46,27 @@ p, article {
     
 }
 h2 {
-    font-family: 'Cinzel', serif;   
+    font-family: 'Cinzel', serif; 
+    margin-top: 5px;  
+    margin-bottom: 5px;
 }
 
-h3, #headers, .headers {
+h3 {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+} 
+
+/* #headers, .headers {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+} */
+#headers, .headers, .projects-screen-header, .contact-screen-header, .about-screen-header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
 }
 
 #headline {
@@ -75,11 +90,6 @@ h3, #headers, .headers {
     display: flex;
     flex-flow: column;
     align-items: center;
-}
-.projects-screen-header, .contact-screen-header, .about-screen-header {
-    background-color: black;
-    color: white;
-    width: 100%;
 }
 
 #quiz-app-screenshots, #horror-house-screenshots {
