@@ -86,10 +86,10 @@ h3 {
     display: flex;
     flex-flow: column;
     align-items: center;
-    align-content: space-around;
+    /* align-content: space-around;
     align-content: space-between;
     justify-content: space-around;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 #quiz-app-screenshots, #horror-house-screenshots {
@@ -106,7 +106,8 @@ h3 {
 }
 
 
-article, li {
+article {
+    text-indent: 5% each-line; 
     font-family: 'Muli', sans-serif;
     flex-shrink: 3;
     flex-grow: 1;
@@ -115,9 +116,11 @@ article, li {
     justify-content: space-evenly;
     line-height: 30px; 
     padding: 10px 5px;
-    margin: 5px 5px
+    margin: 5px 5px;
+    
 }
 .description {
+    
     align-items: flex-start;
     font-size: 18px;
     padding: 10px 5px;
