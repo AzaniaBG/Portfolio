@@ -56,12 +56,6 @@ h3 {
     font-family: 'Bebas Neue', cursive;
 } 
 
-/* #headers, .headers {
-    text-align: center;
-    background-color: black;
-    color: white;
-    width: 100%;
-} */
 #headers, .headers, .projects-screen-header, .contact-screen-header, .about-screen-header {
     text-align: center;
     background-color: black;
@@ -75,21 +69,27 @@ h3 {
     flex-direction: column;
     flex-basis: 50%;
     align-items: center;
+    
 
 }
-#headline-header {
+#headline-text {
     font-size: 15px;
     font-family: 'Muli', sans-serif;
     flex-shrink: 3; 
     justify-content: space-evenly;
     padding: 10px 0;
     margin: 5px 0;
+    
 }
 
 #projects-screen, #contact-screen, #about-screen {
     display: flex;
     flex-flow: column;
     align-items: center;
+    align-content: space-around;
+    align-content: space-between;
+    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #quiz-app-screenshots, #horror-house-screenshots {
@@ -105,20 +105,24 @@ h3 {
     flex: 0 1 5%;
 }
 
-.description {
-    align-items: flex-start;
-}
-article {
+
+article, li {
     font-family: 'Muli', sans-serif;
     flex-shrink: 3;
     flex-grow: 1;
     flex-direction: start;
     align-self: flex-start;
     justify-content: space-evenly;
-    padding: 10px 0;
-    margin: 5px 0; 
+    line-height: 30px; 
+    padding: 10px 5px;
+    margin: 5px 5px
 }
-
+.description {
+    align-items: flex-start;
+    font-size: 18px;
+    padding: 10px 5px;
+    margin: 5px 5px
+}
 ul, li, .contact-screen, #nav-links, .nav-links {
     list-style-type: none;   
 }
@@ -126,10 +130,9 @@ ul, li, .contact-screen, #nav-links, .nav-links {
 /* ////////////////////// TABLET ///////////////////// */
 @media only screen and (min-width: 600px) {
 
-    #headline-header {
+    #headline-text {
         width: 75%;
         height: auto;
-        
     }
     
 
@@ -143,7 +146,7 @@ ul, li, .contact-screen, #nav-links, .nav-links {
         
 
     }
-    #headline-header {
+    #headline-text {
         width: 50%;
         flex-grow: 0;
         flex-shrink: 2;
