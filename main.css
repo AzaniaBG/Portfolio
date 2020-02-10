@@ -55,6 +55,7 @@ h3 {
 
 #headers, .headers, .projects-screen-header, 
 .contact-screen-header, .about-screen-header {
+    
     text-align: center;
     background-color: black;
     color: white;
@@ -132,7 +133,7 @@ p, article {
     margin: 5px 5px;
     
 }
-.description, .about-screen {
+.description, #about-article {
     font-family: 'Muli', sans-serif;
     align-items: flex-start;
     font-size: 17px;
@@ -210,7 +211,7 @@ ul, .contact-screen, #nav-links, .nav-links {
     
     #about-screen, .about-screen, #projects-screens {
         flex-grow: 0;
-        flex-shrink: 3;
+        flex-shrink: 2;
         flex-direction: column;
         align-items: center;
     
