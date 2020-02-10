@@ -104,7 +104,7 @@ h3 {
     height: 15%;
     flex: 0 1 5%;
 }
-#linked-img, #github-img {
+#linked-img, #github-img, #twitter-img {
     display: inline;
     width: 25%;
     flex: 1 3 50px;
