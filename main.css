@@ -31,8 +31,10 @@ time, mark, audio, video {
 #nav {
     font-family: 'Cinzel', serif;
     font-size: 17px;
-    background-color: white;
-    color: black;
+    /* background-color: white;
+    color: black; */
+    background-color: black;
+    color: #182FFF;
 }
 #nav-links {
     font-family: 'Cinzel', serif;
@@ -42,15 +44,7 @@ time, mark, audio, video {
     justify-content: center;
     justify-content: space-around;
 }
-.zoom {
-    padding: 50px;
-    transition: transform .1s;
-    
-}
-.zoom:hover {
-    transform: scale(1.25);
-    background-color: #ffce00;
-}
+
 h2 {
     font-family: 'Cinzel', serif; 
     margin-top: 5px;  
@@ -182,7 +176,15 @@ ul, .contact-screen, #nav-links, .nav-links {
         width: 75%;
         height: auto;
     }
-    
+    .zoom {
+        padding: 50px;
+        transition: transform .1s;
+        
+    }
+    .zoom:hover {
+        transform: scale(1.25);
+        background-color: #ffce00;
+    }
 
 }
 
