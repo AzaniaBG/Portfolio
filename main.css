@@ -149,6 +149,9 @@ li {
     margin: 5px 5px;
     flex: 0 2 auto;
 }
+ul > .nav-links {
+    font-size: 20px;
+}
 ul, .contact-screen, #nav-links, .nav-links {
     list-style-type: none;   
     /* font-family: 'Megrim', cursive; */
