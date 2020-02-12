@@ -22,15 +22,17 @@ time, mark, audio, video {
 /*colors /* background-color: #ffce00; */
         /* background-color: #FFB85B; */
 * {
-    border: 1px black solid;
+    /* border: 1px black solid; */
     box-sizing: border-box;
 }
 body {
-    background-color: #FBF3F2
+    background-color: #FBF3F2;
+    /* border: thick solid #1C768F; */
 }
 #ABG, h1 {
     font-family: 'Megrim', cursive;
     text-align: center;
+    color: #0146AD;
 
 }
 #logo {
@@ -43,8 +45,9 @@ body {
     font-size: 17px;
     /* background-color: white;
     color: black; */
-    background-color: #093A3E;
+    /* background-color: #093A3E; */
     color: #182FFF;
+    background-color: #1C768F;
 }
 #nav-links {
     font-family: 'Cinzel', serif;
@@ -54,15 +57,12 @@ body {
     justify-content: center;
     justify-content: space-around;
 }
-a:hover {
-    /* background-color: #FBF3F2; */
-    color: #093A3E
-}
 
 h2 {
     font-family: 'Cinzel', serif; 
-    margin-top: 5px;  
-    margin-bottom: 5px;
+    margin: 10px 5px;
+    /* margin-top: 5px;  
+    margin-bottom: 5px; */
 }
 
 h3 {
@@ -74,7 +74,6 @@ h3 {
 .contact-screen-header, .about-screen-header {
     
     text-align: center;
-    background-color: #1C768F;
     color: white;
     width: 100%;
 }
@@ -85,18 +84,22 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    align-items: center;
+    justify-content: center;
+
+    /* align-items: center; */
     /* background-color: #182FFF; */
 }
 #headline-text, .headline-header {
+    text-align: center;
     line-height: 30px;
     font-size: 17px;
     font-family: 'Lato', sans-serif;
+    justify-content: space-evenly;
+
     /* font-family: 'Muli', sans-serif; */
     flex-shrink: 3; 
-    justify-content: space-evenly;
-    padding: 10px 0;
-    margin: 5px 0;
+    /* padding: 10px 5px; */
+    /* margin: 5px 5px; */
     /* margin: 0 auto; */
     /* background-color: #182FFF; */
     background-color: white;
@@ -144,7 +147,7 @@ aside {
 }
 p, article {
     font-size: 20px;
-    text-indent: 5em;    
+    /* text-indent: 5em;     */
     flex-shrink: 3;
     flex-grow: 1;
     flex-direction: start;
@@ -159,10 +162,14 @@ p, article {
     font-family: 'Muli', sans-serif;
     align-items: flex-start;
     font-size: 17px;
-    padding: 10px 5px;
-    margin: 5px 5px
+    /* padding: 10px 5px; */
+    /* margin: 5px 5px */
 }
-
+#about-article {
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: space-around;
+}
 li {
     font-family: 'Muli', sans-serif;
     align-items: flex-start;
