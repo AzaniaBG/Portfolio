@@ -67,7 +67,7 @@ h3 >a {
     flex-flow: 1 2 auto;
     
 }
-li>a:hover {
+.hover>a:hover {
         color: black;
         font-weight: bold;
         font-size: 1.5em;
@@ -103,7 +103,6 @@ ul, li {
     flex-flow: row wrap;
     justify-content: safe center;
 }
-
 
 #quiz-app-screenshots>img {
     width: 25%;
@@ -166,9 +165,7 @@ li img {
         display: flex;
         flex-direction: column;
     }
-    /* #projects-screen-header, #quiz-app-header {
-        flex-flow: 5 0 auto;
-    } */
+    
     #quiz-app-screenshots{
         flex-flow: 1 5 auto;
         width: 45%;
@@ -182,21 +179,30 @@ li img {
         background-color: black;
         transform: scale(3);
     }
-    /* .contact-screen {
+    #contact-screen>ul {
         display: flex;
-        flex-direction: row;
-        justify-content: center;   
-    }
-    li .contact-screen {
-        flex-flow: 1 3 auto;
-    } */
+        flex-direction: row nowrap;
+        justify-content: safe center;
 
+    }
+
+    #email-img, #linked-img, #github-img {
+        padding: 10px 10px; 
+        flex-direction: row;
+        flex-flow: 1 1 auto;
+        margin: 25px 25px;
+        
+        
+    }
+    li img {
+        width: 100px;
+    }
 }
 
 /* ////////////////////// LAPTOP ///////////////////// */
-@media only screen and (min-width: 1000px) {
+/* @media only screen and (min-width: 1000px) {
    
-
+} */
 /* ////////////////////// DESKTOP ///////////////////// */
 
 
