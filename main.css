@@ -106,8 +106,9 @@ ul, li {
 }
 #quiz-app-screenshots>aside {
     flex: 2 1 auto;
-    
-   
+}
+#projects-aside {
+    padding: 15px 5px;
 }
 li img {
     width: 50px;
@@ -150,6 +151,17 @@ li img {
         margin: 10px 15px;
     }
 
+    #projects-screen {
+        display: flex;
+        flex-direction: column;
+    }
+    /* #projects-screen-header, #quiz-app-header {
+        flex-flow: 5 0 auto;
+    } */
+    #quiz-app-screenshots{
+        flex-flow: 1 5 auto;
+        width: 25%;
+    }
 }
 
 /* ////////////////////// LAPTOP ///////////////////// */
