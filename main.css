@@ -28,7 +28,6 @@ time, mark, audio, video {
 
 body {
     background-color: #FBF3F2;
-    background-color: yellow;
     overflow-x: hidden;
    
 }
@@ -126,7 +125,7 @@ li img {
 @media only screen and (min-width: 600px) {
 
     #headline-text {
-        width: 75%;
+        width: 50%;
         height: auto;
     }
     /* .zoom {
