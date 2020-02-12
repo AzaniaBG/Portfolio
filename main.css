@@ -54,12 +54,40 @@ h2 {
 .header {
     text-align: center;
 }
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    padding: 10px auto;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
 h3 >a {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     color: blue;
 }
+#contact-screen>ul {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: safe center;
+}
 
+#email-img, #linked-img, #github-img {
+    padding: 10px 5px; 
+    flex-direction: row;
+    flex-flow: 1 1 auto;
+    margin: 25px 5px;
+}
+#connect {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: rgb(252, 4, 157);
+    padding: 10px auto;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
 #nav-links {
     display: flex;
     justify-content: safe center;
@@ -127,6 +155,15 @@ li img {
     font-weight: bold;
     background-color: black;
 }
+#connect {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: rgb(252, 4, 157);
+    padding: 10px auto;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
 
 /* ////////////////////// MOBILE ///////////////////// */
 @media only screen and (min-width: 300px) {
@@ -180,11 +217,13 @@ li img {
         background-color: black;
         transform: scale(3);
     }
+    li img {
+        width: 100px;
+    }
     #contact-screen>ul {
         display: flex;
         flex-direction: row nowrap;
         justify-content: safe center;
-
     }
 
     #email-img, #linked-img, #github-img {
@@ -196,9 +235,7 @@ li img {
         
     }
 
-    li img {
-        width: 100px;
-    }
+    
 }
 
 /* ////////////////////// LAPTOP ///////////////////// */
