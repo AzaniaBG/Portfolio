@@ -37,7 +37,7 @@ time, mark, audio, video {
     font-size: 17px;
     /* background-color: white;
     color: black; */
-    background-color: black;
+    background-color: #093A3E;
     color: #182FFF;
 }
 #nav-links {
@@ -169,7 +169,7 @@ a {
     /* color: #182FFF; */
 }
 a:visited {
-    color: red;
+    color: #0263E2;
 }
 
 ul, .contact-screen, #nav-links, .nav-links {
@@ -191,7 +191,9 @@ ul, .contact-screen, #nav-links, .nav-links {
     }
     .zoom:hover {
         transform: scale(1.25);
-        background-color: #ffce00;
+        /* background-color: #ffce00; */
+        /* background-color: #FFB85B; */
+        background-color: #FA991C;
     }
 
 }
