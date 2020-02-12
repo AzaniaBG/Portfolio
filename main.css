@@ -1,28 +1,9 @@
-/* html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-} */
+
 
 /*colors /* background-color: #ffce00; */
         /* background-color: #FFB85B; */
 * {
-    /* border: 1px black solid; */
+    border: 1px black solid;
     box-sizing: border-box;
 }
 body {
@@ -35,11 +16,7 @@ body {
     color: #0146AD;
 
 }
-#logo {
-    border-radius: 50px;
-    background-color: white;
-    
-}
+
 #nav {
     font-family: 'Cinzel', serif;
     font-size: 17px;
@@ -126,15 +103,17 @@ h3 {
 
 #quiz-app-screenshots, #horror-house-screenshots {
     flex-flow: row wrap;
-    justify-content: flex-start;
-    justify-content: space-evenly;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    
     
 }
 
 .image {
     width: 50%;
-    height: 25%;
+    height: auto;
     flex: 1 2 auto;
+    align-items: center;
 }
 #linked-img, #github-img, #twitter-img {
     display: inline;
@@ -143,7 +122,9 @@ h3 {
 }
 aside {
     flex-wrap: wrap;
-    flex: 2 1 auto;
+    flex: 2 3 auto;
+    display: inline-block;
+    align-items: center;
 }
 p, article {
     font-size: 20px;
