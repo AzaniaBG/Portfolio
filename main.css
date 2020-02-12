@@ -40,9 +40,10 @@ h1 {
 #ABG {
     background-color: rgb(252, 4, 157);
 }
-#full-name {
-    display: none;
+#initials {
+    visibility: visible;
 }
+
 h2 {
     font-family: 'Cinzel', serif;
     text-align: center;
@@ -94,9 +95,10 @@ ul, li {
 #quiz-app-screenshots {
     flex-flow: row wrap;
     display: flex;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
     justify-content: safe center;
 }
+
 
 #quiz-app-screenshots>img {
     width: 25%;
@@ -116,18 +118,34 @@ li img {
 } */
 /* ////////////////////// MOBILE ///////////////////// */
 @media only screen and (min-width: 300px) {
-
+    #full-name {
+        /* display: none; */
+        visibility: hidden;
+    }
     #headline-text {
         width: 75%;
         height: 50%;
     }
 /* ////////////////////// TABLET ///////////////////// */
 @media only screen and (min-width: 600px) {
-
-    #headline-text {
-        width: 50%;
-        height: auto;
+    h1 {
+        font-size: 3em;
     }
+    #initials {
+        visibility: hidden;
+    }
+    #full-name {
+        visibility: visible;
+    }
+    
+    #headline-text {
+        font-size: 1.5em;
+        line-height: 27px;
+        height: auto;
+        padding: 10px 10px;
+    }
+    
+    
     section {
         margin: 10px 15px;
     }
