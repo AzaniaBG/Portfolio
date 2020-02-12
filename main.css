@@ -28,6 +28,7 @@ time, mark, audio, video {
 body {
     background-color: #FBF3F2;
 }
+
 h1 {
     font-family: 'Megrim', cursive;
     font-size: 5em; 
@@ -36,14 +37,24 @@ h1 {
 #ABG {
     background-color: rgb(252, 4, 157);
 }
-
+#full-name {
+    display: none;
+}
 h2 {
     font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 2em;
     /* font-size: 30px; */
+    margin: 10px auto;
 }
-
+.header {
+    text-align: center;
+}
+h3 >a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: blue;
+}
 #nav {
    
 }
@@ -54,9 +65,7 @@ h2 {
     flex-flow: 1 2 auto;
     
 }
-#full-name {
-    display: none;
-}
+
 ul, li {
     list-style: none;
     /* align-items: center; */
