@@ -67,7 +67,12 @@ h3 >a {
     flex-flow: 1 2 auto;
     
 }
-
+li>a:hover {
+        color: black;
+        font-weight: bold;
+        font-size: 1.5em;
+        background-color: rgb(252, 4, 157);
+}
 ul, li {
     list-style: none;
     /* align-items: center; */
@@ -118,10 +123,12 @@ ul, li {
 li img {
     width: 50px;
 }
-/* #projects-screen {
-    padding: 5%;
+.hover:hover {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
 
-} */
 /* ////////////////////// MOBILE ///////////////////// */
 @media only screen and (min-width: 300px) {
     #full-name {
@@ -164,7 +171,7 @@ li img {
     } */
     #quiz-app-screenshots{
         flex-flow: 1 5 auto;
-        width: 25%;
+        width: 45%;
     }
     .zoom {
         padding: 20px;
@@ -173,7 +180,7 @@ li img {
     }
     .zoom:hover {
         background-color: black;
-        transform: scale(5);
+        transform: scale(3);
     }
 }
 
