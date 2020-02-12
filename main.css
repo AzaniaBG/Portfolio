@@ -182,6 +182,15 @@ li img {
         background-color: black;
         transform: scale(3);
     }
+    /* .contact-screen {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;   
+    }
+    li .contact-screen {
+        flex-flow: 1 3 auto;
+    } */
+
 }
 
 /* ////////////////////// LAPTOP ///////////////////// */
