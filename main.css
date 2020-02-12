@@ -25,8 +25,12 @@ time, mark, audio, video {
     box-sizing: border-box;
     margin: 0 auto;
 }
+
 body {
     background-color: #FBF3F2;
+    background-color: yellow;
+    overflow-x: hidden;
+   
 }
 
 h1 {
@@ -55,9 +59,7 @@ h3 >a {
     font-size: 1.5em;
     color: blue;
 }
-#nav {
-   
-}
+
 #nav-links {
     display: flex;
     justify-content: safe center;
@@ -90,6 +92,29 @@ ul, li {
     flex-shrink: 3;
 }
 
+#quiz-app-screenshots {
+    flex-flow: row wrap;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: safe center;
+}
+
+#quiz-app-screenshots>img {
+    width: 25%;
+    height: auto;
+}
+#quiz-app-screenshots>aside {
+    flex: 2 1 auto;
+    
+   
+}
+li img {
+    width: 50px;
+}
+/* #projects-screen {
+    padding: 5%;
+
+} */
 /* ////////////////////// MOBILE ///////////////////// */
 @media only screen and (min-width: 300px) {
 
