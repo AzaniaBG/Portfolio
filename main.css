@@ -108,7 +108,12 @@ ul, li {
     flex: 2 1 auto;
 }
 #projects-aside {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
     padding: 15px 5px;
+}
+#projects-screen .description {
+    font-family: 'Raleway', sans-serif;
 }
 li img {
     width: 50px;
@@ -146,7 +151,6 @@ li img {
         padding: 10px 10px;
     }
     
-    
     section {
         margin: 10px 15px;
     }
@@ -161,6 +165,15 @@ li img {
     #quiz-app-screenshots{
         flex-flow: 1 5 auto;
         width: 25%;
+    }
+    .zoom {
+        padding: 20px;
+        transition: transform .2s;
+        margin: 0 auto; 
+    }
+    .zoom:hover {
+        background-color: black;
+        transform: scale(5);
     }
 }
 
