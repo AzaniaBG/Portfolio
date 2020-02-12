@@ -128,15 +128,9 @@ li img {
         width: 50%;
         height: auto;
     }
-    /* .zoom {
-        transition: transform .1s;
-        
+    section {
+        margin: 10px 15px;
     }
-    .zoom:hover {
-        transform: scale(1.25); */
-        
-        /* background-color: #FA991C;
-    } */
 
 }
 
