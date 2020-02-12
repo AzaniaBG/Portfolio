@@ -18,9 +18,15 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 } */
+
+/*colors /* background-color: #ffce00; */
+        /* background-color: #FFB85B; */
 * {
     border: 1px black solid;
     box-sizing: border-box;
+}
+body {
+    background-color: #FBF3F2
 }
 #ABG, h1 {
     font-family: 'Megrim', cursive;
@@ -47,6 +53,10 @@ time, mark, audio, video {
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
+}
+a:hover {
+    /* background-color: #FBF3F2; */
+    color: #093A3E
 }
 
 h2 {
@@ -185,16 +195,15 @@ ul, .contact-screen, #nav-links, .nav-links {
         width: 75%;
         height: auto;
     }
-    .zoom {
+    /* .zoom {
         transition: transform .1s;
         
     }
     .zoom:hover {
-        transform: scale(1.25);
-        /* background-color: #ffce00; */
-        /* background-color: #FFB85B; */
-        background-color: #FA991C;
-    }
+        transform: scale(1.25); */
+        
+        /* background-color: #FA991C;
+    } */
 
 }
 
