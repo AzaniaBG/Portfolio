@@ -71,21 +71,24 @@ h3 {
     flex-direction: column;
     flex-basis: 50%;
     align-items: center;
-    
-
+    /* background-color: #182FFF; */
 }
 #headline-text {
     line-height: 30px;
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Muli', sans-serif;
     flex-shrink: 3; 
     justify-content: space-evenly;
     padding: 10px 0;
     margin: 5px 0;
     /* margin: 0 auto; */
-    
+    /* background-color: #182FFF; */
+    background-color: white;
+    color: black;
 }
-
+.headline-header {
+    font-family: 'Raleway', sans-serif;
+}
 #contact-screen, #about-screen {
     display: flex;
     flex-flow: column;
@@ -157,7 +160,8 @@ ul > .nav-links {
 }
 a {
     text-decoration: none;
-    color: #182FFF;
+    /* color: #182FFF; */
+    color: white;
 }
 a:visited {
     color: red;
@@ -177,7 +181,6 @@ ul, .contact-screen, #nav-links, .nav-links {
         height: auto;
     }
     .zoom {
-        padding: 50px;
         transition: transform .1s;
         
     }
