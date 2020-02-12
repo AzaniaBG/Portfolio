@@ -30,12 +30,16 @@ time, mark, audio, video {
 body {
     background-color: #FBF3F2;
 }
+h2 {
+    font-family: 'Cinzel', serif;
+}
 #nav {
    
 }
 #nav-links {
     display: flex;
     justify-content: safe center;
+    justify-content: space-evenly;
     flex-flow: 1 2 auto;
     
 }
@@ -51,8 +55,9 @@ ul, li {
     align-items: center;
 }
 #headline-text {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-family: 'Lora', serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 1.25em;
     line-height: 25px;
     text-align: center;
     width: 75%;
