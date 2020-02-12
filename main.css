@@ -116,7 +116,7 @@ ul, li {
     text-align: center;
     padding: 15px 5px;
 }
-#projects-screen .description {
+#projects-screen .description, #about-article {
     font-family: 'Raleway', sans-serif;
 }
 li img {
@@ -149,14 +149,15 @@ li img {
     #full-name {
         visibility: visible;
     }
-    
     #headline-text {
         font-size: 1.5em;
         line-height: 27px;
         height: auto;
         padding: 10px 10px;
     }
-    
+    h2 {
+        padding: 30px 15px 25px;
+    }
     section {
         margin: 10px 15px;
     }
@@ -194,6 +195,7 @@ li img {
         
         
     }
+
     li img {
         width: 100px;
     }
