@@ -142,7 +142,7 @@ ul, li {
 #projects-aside {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    padding: 15px 5px;
+    /* padding: 15px 5px; */
 }
 #projects-screen .description, #about-article {
     font-family: 'Raleway', sans-serif;
@@ -160,9 +160,14 @@ li img {
     font-size: 1.25em;
     color: rgb(252, 4, 157);
     padding: 10px auto;
-    margin: 10px auto;
+    margin: 10px 10px;
     text-align: center;
     font-weight: bold;
+}
+article, aside {
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 5px 30px;
 }
 
 /* ////////////////////// MOBILE ///////////////////// */
