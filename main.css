@@ -33,7 +33,8 @@ body {
 }
 
 h1 {
-    font-family: 'Megrim', cursive;
+    font-family: 'Cinzel', serif;
+    color: #1C768F;
     font-size: 5em; 
     text-align: center;
 }
@@ -176,7 +177,8 @@ a {
 }
 a:visited {
     /* color:  #0263E2; */
-    color: #FFBF00;
+    /* color: #FFBF00; */
+    color: #1C768F;
 }
 article, aside {
     text-indent: 10px;
