@@ -234,7 +234,12 @@ article, aside {
         display: flex;
         flex-direction: column;
     }
-    
+    article, aside {
+        width: 60%;
+    }
+    ol > li {
+        text-align: left;
+    }
     #quiz-app-screenshots{
         flex-flow: 1 5 auto;
         width: 45%;
