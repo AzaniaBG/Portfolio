@@ -108,6 +108,7 @@ h3 >a {
         background-color: #1C768F;
 
 }
+
 ul, li {
     list-style: none;
     padding: 10px 10px;    
@@ -155,7 +156,9 @@ ul, li {
 #projects-screen .description, #about-article {
     font-family: 'Raleway', sans-serif;
 }
-
+ol > li {
+    font-family: 'Raleway', sans-serif;
+}
 li img {
     width: 50px;
 }
