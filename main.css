@@ -262,6 +262,9 @@ article, aside {
     li img {
         width: 100px;
     }
+    .hobbies-paragraph {
+        text-indent: 5%;
+    }
     #contact-screen>ul {
         display: flex;
         flex-direction: row nowrap;
