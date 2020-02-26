@@ -25,7 +25,9 @@ time, mark, audio, video {
     box-sizing: border-box;
     margin: 0 auto;
 }
-
+.hidden {
+    display: none;
+}
 body {
     background-color: #FBF3F2;
     overflow-x: hidden;
@@ -72,7 +74,11 @@ h3 >a {
     flex-direction: row nowrap;
     justify-content: safe center;
 }
-
+/* #hamburger {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+} */
 #email-img, #linked-img, 
 #github-img {
     padding: 10px 5px; 

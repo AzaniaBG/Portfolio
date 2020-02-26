@@ -21,13 +21,14 @@
     </head>
 
     <body>       
-        <nav id="nav">        
+        <nav id="nav">
             <ul id="nav-links">
-                <li class="nav-links hover"><a href="#home-link">Home</a></li>
-                <li class="nav-links hover"><a href="#about-link">About</a></li>
-                <li class="nav-links hover"><a href="#projects-link">Projects</a></li>
-                <li class="nav-links hover"><a href="#contacts-link">Contact</a></li>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+                <span id="hamburger">hamburger</span>
+                <li class="nav-links hover hidden"><a href="#home-link">Home</a></li>
+                <li class="nav-links hover hidden"><a href="#about-link">About</a></li>
+                <li class="nav-links hover hidden"><a href="#projects-link">Projects</a></li>
+                <li class="nav-links hover hidden"><a href="#contacts-link">Contact</a></li>
+                 
             </ul>
         </nav>
         <header id="ABG">
@@ -67,19 +68,6 @@
                         <li>4. Their final score.</li>
                     </ol>
                 </article>
-                
-
-                <!-- <h3 id="horror-house-app-header" class="header projects-screen">Project Name (live link)</h3>
-                    <aside class="projects-screen">Tech Used</aside>
-                <picture id="horror-house-screenshots">
-                    <img class="projects-screen image">
-                    <img class="projects-screen image">
-                    <img class="projects-screen image">
-                </picture>
-                <article class="projects-screen description">Project Description<br>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                </article>
-                <a class="projects-screen">GitHub Repo Link</a> -->
             </section>
 <!--/////////////////////// END PROJECTS SCREEN/////////////////////////////////////-->
 
@@ -125,7 +113,11 @@
 <!--//////////////////////// END CONTACT SCREEN/////////////////////////////////////-->
         </main>
         <script type="text/JavaScript">
-            
+            $("#hamburger").on("click", () => {
+                event.preventDefault();
+                $(".hidden").toggle();
+                
+            })
         </script>
     </body>
 
