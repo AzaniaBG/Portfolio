@@ -207,18 +207,29 @@ article, aside {
         width: 75%;
         height: 50%;
     }
+    #nav {
+        
+        
+    }
     #nav-links {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+        color: white;
+        background-color: #081E59;
+        margin: 25%  
     }
-    #nav-links {
-        flex: 1 1 auto;
-/* 
+    
+    /* #nav {
+
         width: 35px;
         height: 5px;
         background-color: black;
-        margin: 6px 0; */
+        margin: 0 auto;
+       
+    } */
+    #nav-links {
+        flex: 1 1 auto;
       }
 /* ////////////////////// TABLET/LAPTOP ///////////////////// */
 @media only screen and (min-width: 600px) {
