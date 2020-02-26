@@ -93,8 +93,7 @@ h3 >a {
     display: flex;
     justify-content: safe center;
     justify-content: space-evenly;
-    flex-flow: 1 2 auto;
-    
+    flex-flow: 1 2 auto;  
 }
 .hover>a:hover {
         color: white;
@@ -208,6 +207,19 @@ article, aside {
         width: 75%;
         height: 50%;
     }
+    #nav-links {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    #nav-links {
+        flex: 1 1 auto;
+/* 
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0; */
+      }
 /* ////////////////////// TABLET/LAPTOP ///////////////////// */
 @media only screen and (min-width: 600px) {
     /* h1 {
