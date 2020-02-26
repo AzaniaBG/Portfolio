@@ -89,12 +89,12 @@ h3 >a {
     text-align: center;
     font-weight: bold;
 }
-#nav-links {
+/* #nav-links {
     display: flex;
     justify-content: safe center;
     justify-content: space-evenly;
     flex-flow: 1 2 auto;  
-}
+} */
 .hover>a:hover {
         color: white;
         font-weight: bold;
@@ -233,6 +233,12 @@ article, aside {
         /* visibility: visible; */
         font-size: 3em;
         margin: 0 auto;
+    }
+    #nav-links {
+        flex-flow: row nowrap;
+        justify-content: safe center;
+        justify-content: space-evenly;
+        flex-flow: 1 2 auto;  
     }
     #headline-text {
         font-size: 1.5em;
