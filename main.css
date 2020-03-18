@@ -95,6 +95,9 @@ h3 >a {
     justify-content: space-evenly;
     flex-flow: 1 2 auto;  
 }
+.icon {
+    display: none
+}
 .hover>a:hover {
         color: white;
         font-weight: bold;
@@ -140,13 +143,16 @@ ul, li {
     background-color: black;
     margin: 6px 0;
   } */
-  .hamburger a {
+  /* .hamburger a {
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
+} */
+.hamburger {
+
 }
 .hamburger .icon {
     display: none;
@@ -223,6 +229,24 @@ article, aside {
         display: none;
         /* visibility: hidden; */
     }
+    .icon {
+        display: block;
+    }
+    #nav {
+        overflow: hidden;
+    }
+    #nav #nav-links {
+        display: none;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav a.icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
     .hamburger a:not(:first-child) {
         display: none;
     }
@@ -237,9 +261,6 @@ article, aside {
 }
 /* ////////////////////// TABLET/LAPTOP ///////////////////// */
 @media only screen and (min-width: 600px) {
-    /* h1 {
-        
-    } */
     #initials {
         visibility: hidden;
     }
@@ -261,7 +282,13 @@ article, aside {
     section {
         margin: 10px 15px;
     }
-
+    #nav-links {
+        display: flex;
+        justify-content: safe center;
+        justify-content: space-evenly;
+        flex-flow: 1 2 auto;  
+    }
+    
     #projects-screen {
         display: flex;
         flex-direction: column;
