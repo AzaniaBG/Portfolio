@@ -23,9 +23,9 @@
 
     <body>       
         <nav id="nav">
-            <a href="#home" class="active">Logo</a>
+            
             <ul id="nav-links" >
-                
+                <li class="nav-links hover hidden"><a href="#home" class="active">Home</a></li>
                 <li class="nav-links hover hidden"><a href="#about-link">About</a></li>
                 <li class="nav-links hover hidden"><a href="#projects-link">Projects</a></li>
                 <li class="nav-links hover hidden"><a href="#contacts-link">Contact</a></li>
@@ -117,11 +117,15 @@
 <!--//////////////////////// END CONTACT SCREEN/////////////////////////////////////-->
         </main>
         <script>
-            $("#hamburger").on("click", () => {
-                event.preventDefault();
-                $(".hidden").toggle();
-                
-            })
+            function toggleMenu() {
+                console.log(`toggleMenu clicked`);
+                const links = document.getElementById("nav-links");
+                if (links.style.display === "block") {
+                    links.style.display = "none";
+                } else {
+                    links.style.display = "block";
+                }
+            }
         </script>
     </body>
 
