@@ -140,13 +140,16 @@ ul, li {
     background-color: black;
     margin: 6px 0;
   } */
-  .hamburger a {
+  /* .hamburger a {
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
+} */
+.hamburger {
+
 }
 .hamburger .icon {
     display: none;
@@ -222,6 +225,22 @@ article, aside {
     #full-name {
         display: none;
         /* visibility: hidden; */
+    }
+    #nav {
+        overflow: hidden;
+        position: relative;
+    }
+    #nav #nav-links {
+        display: none;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav a.icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     .hamburger a:not(:first-child) {
         display: none;
