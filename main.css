@@ -231,6 +231,11 @@ article, aside {
     }
     .icon {
         display: block;
+        padding: 5px 5px;
+        margin-top: 25px;
+        margin-right: 75px;
+        font-size: 30px;
+        color: #1C768F;
     }
     #nav {
         overflow: hidden;
